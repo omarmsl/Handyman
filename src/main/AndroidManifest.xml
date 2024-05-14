@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.handyman1">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Handyman1"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".mylog"
+            android:exported="false" />
+        <activity
+            android:name=".editservice"
+            android:exported="false" />
+        <activity
+            android:name=".userprofile"
+            android:exported="false" />
+        <activity
+            android:name=".addservice"
+            android:exported="false" />
+        <activity
+            android:name=".service_desc"
+            android:exported="false" />
+        <activity
+            android:name=".Filter"
+            android:exported="false" />
+        <activity
+            android:name=".Service_provider"
+            android:exported="false" />
+        <activity
+            android:name=".Client"
+            android:exported="false" />
+        <activity
+            android:name=".launcher"
+            android:exported="true" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

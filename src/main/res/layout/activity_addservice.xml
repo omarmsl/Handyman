@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addservice"
+
+   >
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="Description"
+        app:layout_constraintBottom_toTopOf="@+id/dddesc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PPrice" />
+
+    <EditText
+        android:id="@+id/PPrice"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/rounded_border_edittext"
+        android:ems="10"
+        android:hint="Add the price of your service"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="18dp"
+        android:text="Price"
+        app:layout_constraintBottom_toTopOf="@+id/PPrice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TTile" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginBottom="18dp"
+        android:text="Title: "
+        app:layout_constraintBottom_toTopOf="@+id/TTile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/TTile"
+        android:background="@drawable/rounded_border_edittext"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="23dp"
+        android:ems="10"
+        android:hint="Add the title of the new service"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="@+id/PPrice"
+        app:layout_constraintStart_toStartOf="@+id/PPrice"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="104dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dddesc"
+        app:srcCompat="@drawable/ic_baseline_done_24" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="201dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="60dp"
+        android:text="Add Service"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/dddesc"
+        android:layout_width="291dp"
+        android:layout_height="188dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="458dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/rounded_border_edittext"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/done"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">handyman1</string>
+    <string name="url">"http://10.0.2.2/handyman1/"</string>
+    <string name="id">0</string>
+    <string-array name="spinnerentries">
+        <item>Select one</item>
+        <item>Client</item>
+        <item>Service provider</item>
+    </string-array>
+
+    <string-array name="address">
+        <item>Select one</item>
+        <item>Tripoli</item>
+        <item>Beirut</item>
+        <item>Sidon</item>
+        <item>Tyre</item>
+        <item>Joünié</item>
+        <item>Zahlé</item>
+        <item>Nabatîyé</item>
+        <item>Baalbek</item>
+        <item>Amioûn</item>
+        <item>Baabda</item>
+        <item>Marjayoûn</item>
+        <item>Jdaidet el Matn</item>
+        <item>Zghartā</item>
+        <item>Aaley</item>
+        <item>Jbaïl</item>
+        <item>Sîr ed Danniyé</item>
+        <item>Halba</item>
+        <item>Bent Jbaïl</item>
+        <item>Jezzîne</item>
+        <item>Batroûn</item>
+        <item>Hâsbaïya</item>
+        <item>Joubb Jannîne</item>
+        <item>Beït ed Dîne</item>
+        <item>El Hermel</item>
+        <item>Râchaïya el Ouadi</item>
+        <item>Bcharré</item>
+    </string-array>
+
+    <string-array name="typesofservices">
+        <item>Accountant</item>
+        <item>Teacher</item>
+        <item>Technician</item>
+        <item>Laborer</item>
+        <item>Physical</item>
+        <item>Commercial Banker</item>
+        <item>Engineer</item>
+        <item>Lawyer</item>
+        <item>Psychologist</item>
+        <item>Pharmacist</item>
+        <item>Dietitian</item>
+        <item>Research Analyst</item>
+        <item>Midwife</item>
+        <item>Mechanic</item>
+        <item>Dentist</item>
+        <item>Electrician</item>
+        <item>Consultant</item>
+        <item>Investment Banker</item>
+        <item>Programmer</item>
+
+    </string-array>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="name">Name:</string>
+
+</resources>
